@@ -1,2 +1,4 @@
 [submodule "homework1-MalashenkoDa"]
-	url = https://github.com/Technopark-Altair/homework1-MalashenkoDa.git
+	url = https://github.com/Technopark-Altair/test1-MalashenkoDa.git
+[submodule "test1-MalashenkoDa"]
+	url = https://github.com/Technopark-Altair/test1-MalashenkoDa.git
