@@ -1,0 +1,46 @@
+body{
+	background-color:white;
+
+}
+.register{
+	text-decoration: none;
+	color: black;
+}
+.come{
+	text-decoration: none;
+	color: black;
+	margin-left:  1700px;
+    margin-bottom : 5px; 
+    font-size: 20pt;
+    
+
+}
+.hat{
+	background-color: #dca55c;
+	text-decoration: none;
+	 display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 2em;
+  grid-gap: .5em;
+  margin-bottom: 10px;
+  display: flex; 
+	
+	/* Распределяем элементы внутри шапки */
+	justify-content: space-between;
+
+	/* Выравниваем элементы вертикально по центру. */
+	align-items: center;
+
+}
+.sqier{
+	grid-template-columns: 1fr;
+	 border: 4px double black;
+	 height: 438px;
+	 width: 438px;
+}
+.strat{
+	grid-template-columns: 1fr;
+	 border: 4px double black;
+	 height: 438px;
+	 width: 438px;
+}
