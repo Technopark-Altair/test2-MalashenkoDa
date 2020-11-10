@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -13,4 +13,18 @@
   </div>
  
 </body>
-</html>
+</html> -->
+<div class="display-gird">
+  <select class="selectionOperator" [(ngModel)]="operatoR">
+    <option>!</option>
+  </select>
+  <input class="selectionNumber" type="number" [(ngModel)]="firstOperand" placeholder="Введите число">
+  <select class="selectionOperator" [(ngModel)]="operator">
+    <option>&&</option>
+    <option>||</option>
+  </select>
+    <input class="selectionNumber" type="number" [(ngModel)]="secondNumber" placeholder="Введите число">
+    <input class="click" type="submit" (click)="doCalc()">
+  <div class="result">{{ result}}</div>
+  <div class="error">{{ cError }}</div>
+    </div>
